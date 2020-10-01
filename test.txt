@@ -1,4 +1,4 @@
-This contains few questions for practise:
+This contains few questions for practice:
 Question 1:
 A doubly linked list is declared as
 
@@ -21,3 +21,25 @@ B. X->Bwd.Fwd = X->Fwd ; X.Fwd->Bwd = X->Bwd ;
 C. X.Bwd->Fwd = X.Bwd ; X->Fwd.Bwd = X.Bwd ;
 
 D. X->Bwd->Fwd = X->Bwd ; X->Fwd->Bwd = X->Fwd
+
+Question 2:
+Consider an implementation of unsorted single linked list. Suppose it has its representation with a head and a tail pointer (i.e. pointers to the first and last nodes of the linked list). Given the representation, which of the following operation can not be implemented in O(1) time ?
+
+A. Insertion at the front of the linked list.
+
+B. Insertion at the end of the linked list.
+
+C. Deletion of the front node of the linked list.
+
+D. Deletion of the last node of the linked list.
+
+Question 3:
+The minimum number of fields with each node of doubly linked list is
+
+A. 1
+
+B. 2
+
+C. 3
+
+D. 4
