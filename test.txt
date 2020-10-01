@@ -43,3 +43,16 @@ B. 2
 C. 3
 
 D. 4
+
+Question 4:
+Consider a single linked list where F and L are pointers to the first and last elements respectively of the linked list. The time for performing which of the given operations depends on the length of the linked list? 
+
+A. Delete the first element of the list
+
+B. Interchange the first two elements of the list
+
+C. Delete the last element of the list
+
+D. Add an element at the end of the list
+
+Question 5:
