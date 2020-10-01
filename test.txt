@@ -1,0 +1,23 @@
+This contains few questions for practise:
+Question 1:
+A doubly linked list is declared as
+
+struct Node {
+
+       int Value;
+
+       struct Node *Fwd;
+
+       struct Node *Bwd;
+
+);
+
+Where Fwd and Bwd represent forward and backward link to the adjacent elements of the list. Which of the following segments of code deletes the node pointed to by X from the doubly linked list, if it is assumed that X points to neither the first nor the last node of the list?
+
+A. X->Bwd->Fwd = X->Fwd; X->Fwd->Bwd = X->Bwd ;
+
+B. X->Bwd.Fwd = X->Fwd ; X.Fwd->Bwd = X->Bwd ;
+
+C. X.Bwd->Fwd = X.Bwd ; X->Fwd.Bwd = X.Bwd ;
+
+D. X->Bwd->Fwd = X->Bwd ; X->Fwd->Bwd = X->Fwd
