@@ -56,3 +56,80 @@ C. Delete the last element of the list
 D. Add an element at the end of the list
 
 Question 5:
+The following steps in a linked list
+
+p = getnode()
+
+ info (p) = 10
+
+ next (p) = list
+
+ list = p
+
+result in which type of operation?
+
+A. pop operation in stack
+
+B. removal of a node
+
+C. inserting a node
+
+D. modifying an existing node
+
+Question 6:
+The term _______ is used to refer to a row.
+
+a) Attribute
+
+b) Tuple
+
+c) Field
+
+d) Instance
+
+Question 7:
+The term attribute refers to a ___________ of a table.
+
+a) Record
+
+b) Column
+
+c) Tuple
+
+d) Key
+
+Question 8:
+For each attribute of a relation, there is a set of permitted values, called the ________ of that attribute.
+
+a) Domain
+
+b) Relation
+
+c) Set
+
+d) Schema
+
+
+Question 9:
+ Database __________ which is the logical design of the database, and the database _______ which is a snapshot of the data in the database at a given instant in time.
+
+a) Instance, Schema
+
+b) Relation, Schema
+
+c) Relation, Domain
+
+d) Schema, Instance
+
+Question 10:
+Course(course_id,sec_id,semester)
+
+Here the course_id,sec_id and semester are __________ and course is a _________
+
+a) Relations, Attribute
+
+b) Attributes, Relation
+
+c) Tuple, Relation
+
+d) Tuple, Attributes
