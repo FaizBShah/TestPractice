@@ -1,8 +1,21 @@
-public class MyClass {
-  public static void main(String[] args) {
-        int x = 5;
-        int y = 6;
-        int sum = x + y;
-        System.out.println(sum); 
-  }
-}
+#Rock, Paper, Scissors Game
+from random import randint
+a = [“paper”, “rock”, “scissor”]
+
+print("""
+‘0’ for paper
+‘1’ for rock
+‘2’ for scissor
+“”")
+ply_choice = 0
+cmp_choice = 0
+
+while ply_choice == cmp_choice:
+ply_choice = int(input("Make your choice: "))
+print(f’Player choice is : {a[ply_choice]}’)
+cmp_choice = randint(0, 2)
+print(f’Computer choice is : {a[cmp_choice]}’)
+if (ply_choice, cmp_choice) in [(0, 1), (1, 2), (2, 0)]:
+print(“Player wins !”)
+if (ply_choice, cmp_choice) in [(1, 0), (2, 1), (0, 2)]:
+print(“Computer wins !”)
