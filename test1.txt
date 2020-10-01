@@ -1,21 +1,14 @@
-#Rock, Paper, Scissors Game
-from random import randint
-a = [“paper”, “rock”, “scissor”]
+import random
 
-print("""
-‘0’ for paper
-‘1’ for rock
-‘2’ for scissor
-“”")
-ply_choice = 0
-cmp_choice = 0
+number = random.randint(0,20)
 
-while ply_choice == cmp_choice:
-ply_choice = int(input("Make your choice: "))
-print(f’Player choice is : {a[ply_choice]}’)
-cmp_choice = randint(0, 2)
-print(f’Computer choice is : {a[cmp_choice]}’)
-if (ply_choice, cmp_choice) in [(0, 1), (1, 2), (2, 0)]:
-print(“Player wins !”)
-if (ply_choice, cmp_choice) in [(1, 0), (2, 1), (0, 2)]:
-print(“Computer wins !”)
+guess = int(input("Guess the number I’ve chosen between 0 and 20! "))
+
+if guess == number:
+print(“Well done! You got it right!”)
+elif guess > number:
+print(“Too High! Try again!”)
+elif guess < number:
+print(“Too low! Try again!”)
+else:
+print(“Error!”)
