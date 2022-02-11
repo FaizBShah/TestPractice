@@ -1,2 +1,2 @@
 # TestPractice
-Just for practicing git
+Just for practising git
